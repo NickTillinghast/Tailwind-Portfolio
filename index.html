@@ -9,6 +9,8 @@
     <link rel="icon" type="image/png" href="favicon.png">
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css"/>
+    <!-- AOS CSS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!-- Tailwind Library -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/creativetimofficial/tailwind-starter-kit/compiled-tailwind.min.css" />
 </head>
@@ -19,7 +21,7 @@
       <div class="container px-4 mx-auto flex flex-wrap items-center justify-between">
         <!-- Nav Left Side -->
           <div class="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
-              <a class="text-sm font-bold leading-relaxed inline-block mr-4 py-2 whitespace-no-wrap uppercase text-white" href="https://www.creative-tim.com/learning-lab/tailwindcss-starter-project#/presentation">
+              <a class="text-lg font-bold leading-relaxed inline-block mr-4 py-2 whitespace-no-wrap uppercase text-white" href="https://www.creative-tim.com/learning-lab/tailwindcss-starter-project#/presentation">
                 <!-- Nav Title -->
                 NICK TILLINGHAST
               </a>
@@ -37,7 +39,7 @@
             <a class="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
               href="https://www.linkedin.com/in/nick-tillinghast-065b2951/">
               <!-- Icon -->
-              <i class="lg:text-gray-300 text-gray-500 fab fa-linkedin text-lg leading-lg "></i>
+              <i class="lg:text-gray-300 text-gray-500 fab fa-linkedin text-5xl leading-lg "></i>
               <span class="lg:hidden inline-block ml-2">Linkedin</span>
             </a>
           </li>
@@ -46,7 +48,7 @@
             <a class="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
               href="https://drive.google.com/open?id=116p01UReHCQ-BHkzd0jRVuhLhjbl3Nxo">
               <!-- Icon -->
-              <i class="lg:text-gray-300 text-gray-500 fas fa-file text-lg leading-lg "></i>
+              <i class="lg:text-gray-300 text-gray-500 fas fa-file text-5xl leading-lg "></i>
               <span class="lg:hidden inline-block ml-2">Resume</span>
             </a>
           </li>
@@ -55,7 +57,7 @@
             <a class="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
               href="https://github.com/NickTillinghast">
               <!-- Icon -->
-              <i class="lg:text-gray-300 text-gray-500 fab fa-github text-lg leading-lg "></i>
+              <i class="lg:text-gray-300 text-gray-500 fab fa-github text-5xl leading-lg "></i>
               <span class="lg:hidden inline-block ml-2">Github</span>
             </a>
           </li>
@@ -70,10 +72,10 @@
     <div class="relative pt-16 pb-32 flex content-center items-center justify-center" style="min-height: 75vh;">  
       <!-- Background Image -->
       <div
-        class="absolute top-0 w-full h-full bg-cover"
-        style="background: url(https://images.unsplash.com/photo-1537498425277-c283d32ef9db?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1057&q=80)" >
+        class="bg-no-repeat absolute top-0 w-full h-full"
+        style="background: url(https://images.unsplash.com/photo-1561494653-744c43aed0c1?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1629&q=80)">
         <!-- Overlay -->
-        <span id="blackOverlay" class="w-full h-full absolute opacity-75 bg-black"></span>
+        <span id="blackOverlay" class="w-full h-full absolute opacity-50 bg-black"></span>
       </div>
       <!-- Text Over Main Background -->
       <div class="container relative mx-auto">
@@ -82,10 +84,10 @@
             <div class="pr-12">
               <img   class="shadow-lg rounded-full max-w-full mx-auto"
               style="max-width: 120px;" src="https://res.cloudinary.com/dqpatwz6c/image/upload/v1613514243/iakynibi833fqxuzn0z7.png">
-              <h1 class="text-white font-semibold text-5xl">
-                Web Developer.
+              <h1 class="text-white font-semibold text-5xl" data-aos="fade-up">
+                Web Developer
               </h1>
-              <p class="mt-4 text-lg text-gray-300">
+              <p class="mt-4 text-lg text-gray-300" data-aos="fade-right" data-aos-delay='1000'>
                 Former professional photographer turned web developer. I’m
                 hard working, humble, and always eager to expand my knowledge
                 to reach my goals. Problem solving and visual elements were a
@@ -125,7 +127,7 @@
       <div class="container mx-auto px-4">
         <div class="flex flex-wrap">
           <!-- Card -->
-          <div class="lg:pt-12 pt-6 w-full md:w-4/12 px-4 text-center">
+          <div class="lg:pt-12 pt-6 w-full md:w-4/12 px-4 text-center" data-aos='fade-right' data-aos-delay="1200">
             <div class="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg">
               <div class="px-4 py-5 flex-auto">
                 <img className="projects" src="https://res.cloudinary.com/dqpatwz6c/image/upload/v1613499362/fjatye84g5mfpar6jfyq.png" alt="none" />
@@ -153,7 +155,7 @@
             </div>
           </div>
           <!-- Card -->
-          <div class="w-full md:w-4/12 px-4 text-center">
+          <div class="w-full md:w-4/12 px-4 text-center" data-aos='fade-up' data-aos-delay="1400">
             <div class="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg">
               <div class="px-4 py-5 flex-auto">
                 <img className="projects" src="https://res.cloudinary.com/dqpatwz6c/image/upload/v1613509497/u5fhifwbfyajvmrjm5by.png" alt="none" />
@@ -179,7 +181,7 @@
             </div>
           </div>
           <!-- Card -->
-          <div class="pt-6 w-full md:w-4/12 px-4 text-center">
+          <div class="pt-6 w-full md:w-4/12 px-4 text-center"data-aos='fade-left' data-aos-delay="1600">
             <div class="relative flex flex-col min-w-0 break-words bg-white w-full mb-8 shadow-lg rounded-lg">
               <div class="px-4 py-5 flex-auto">
                 <img className="projects" src="https://res.cloudinary.com/dqpatwz6c/image/upload/v1613509746/urmhjhzxyoa5gcgyvnko.png" alt="none" />
@@ -205,9 +207,9 @@
         <!-- Text Box and Card Container -->
         <div class="flex flex-wrap items-center mt-32">
           <!-- Text Box Container -->
-          <div class="w-full md:w-5/12 px-4 mr-auto ml-auto">
+          <div class="w-full md:w-5/12 px-4 mr-auto ml-auto" data-aos="zoom-in-right">
             <!-- Text Box -->
-            <div class="text-gray-600 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-gray-100">
+            <div class="text-purple-600 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-gray-100">
               <!-- Icon -->
               <i class="fas fa-coffee text-xl"></i>
             </div>
@@ -226,12 +228,12 @@
           </div>
 
           <!-- Image Cap & Text Card -->
-          <div class="w-full md:w-4/12 px-4 mr-auto ml-auto">
-            <div class="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg bg-orange-500">
+          <div class="w-full md:w-4/12 px-4 mr-auto ml-auto" data-aos="flip-left" data-aos-delay="1000">
+            <div class="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg bg-purple-500">
               <!-- Image -->
               <img
                 alt="..."
-                src="https://images.unsplash.com/photo-1585236616251-9fd0f67b0000?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1575&q=80"
+                src="https://images.unsplash.com/photo-1577640340543-9f0b8d9feb07?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80"
                 class="w-full align-middle rounded-t-lg"
               />
               <blockquote class="relative p-8 mb-4">
@@ -245,7 +247,7 @@
                 >
                   <polygon
                     points="-30,95 583,95 583,65"
-                    class="text-orange-500 fill-current"
+                    class="text-purple-500 fill-current"
                   ></polygon>
                 </svg>
                 <!-- Text Box -->
@@ -286,9 +288,9 @@
         </svg>
       </div>
       <!-- Section Container -->
-      <div class="container mx-auto px-4">
+      <div class="container mx-auto px-4" >
         <div class="items-center flex flex-wrap">
-          <div class="w-full md:w-4/12 ml-auto mr-auto px-4"> 
+          <div class="w-full md:w-4/12 ml-auto mr-auto px-4" data-aos="flip-right" data-aos-delay="1000"> 
             <!-- Image -->
             <img
               alt="..."
@@ -297,30 +299,30 @@
             />
           </div>
           <!-- Text Box Container-->
-          <div class="w-full md:w-5/12 ml-auto mr-auto px-4">
+          <div class="w-full md:w-5/12 ml-auto mr-auto px-4" data-aos="zoom-in-left" >
             <div class="md:pr-12">
-              <div class="text-pink-600 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-pink-300">
+              <div class="text-purple-600 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-gray-300">
                 <!-- Icon -->
-                <i class="fas fa-rocket text-xl"></i>
+                <i class="fas fa-code text-2xl"></i>
               </div>
               <!-- Text Box -->
               <h3 class="text-3xl font-semibold">Always learning and always intrigued</h3>
               <p class="mt-4 text-lg leading-relaxed text-gray-600">
-               lasdkfa;sjdf;lasdjfas
+                Some of the technologies I am familar with
               </p>
               <!-- List -->
               <ul class="list-none mt-6">
                 <li class="py-2">
                   <div class="flex items-center">
                     <div>
-                      <span class="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-pink-600 bg-pink-200 mr-3">
+                      <span class="text-4xl font-semibold inline-block py-1 px-2 uppercase rounded-full text-blue-600 bg-gray-200 mr-3">
                         <!-- Icon -->
-                        <i class="fas fa-fingerprint"></i>
+                        <i class="fab fa-css3-alt"></i>
                       </span>
                     </div>
                     <div>
                       <h4 class="text-gray-600">
-                        Carefully crafted components
+                       CSS3
                       </h4>
                     </div>
                   </div>
@@ -328,27 +330,43 @@
                 <li class="py-2">
                   <div class="flex items-center">
                     <div>
-                      <span class="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-pink-600 bg-pink-200 mr-3">
+                      <span class="text-4xl font-semibold inline-block py-1 px-2 uppercase rounded-full text-red-600 bg-gray-200 mr-3">
                         <!-- Icon -->
                         <i class="fab fa-html5"></i>
                       </span>
                     </div>
                     <div>
-                      <h4 class="text-gray-600">Amazing page examples</h4>
+                      <h4 class="text-gray-600">Html</h4>
                     </div>
                   </div>
                 </li>
                 <li class="py-2">
                   <div class="flex items-center">
                     <div>
-                      <span class="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-pink-600 bg-pink-200 mr-3">
+                      <span class="text-4xl font-semibold inline-block py-1 px-2 uppercase rounded-full text-orange-600 bg-gray-200 mr-3">
+                         <!-- Icon -->
+                         <i class="fab fa-aws"></i>
+                        </span>
+                      </div>
+                      <div>
+                        <h4 class="text-gray-600">AWS</h4>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="py-2">
+                    <div class="flex items-center">
+                      <div>
+                        <span class="text-4xl font-semibold inline-block py-1 px-2 uppercase rounded-full text-blue-600 bg-gray-200 mr-3">
                         <!-- Icon -->
-                        <i class="far fa-paper-plane"></i>
+                        <i class="fab fa-react"></i>
+
                       </span>
                     </div>
                     <div>
-                      <h4 class="text-gray-600">Dynamic components</h4>
-                    </div>
+                      <h4 class="text-gray-600">React</h4>
+                     </div>
+                   
+                   
                   </div>
                 </li>
               </ul>
@@ -367,15 +385,13 @@
         <div class="flex flex-wrap justify-center text-center mb-24">
           <div class="w-full lg:w-6/12 px-4">
             <h2 class="text-4xl font-semibold">Some fun little projects showcasing some amazing technologies</h2>
-            <p class="text-lg leading-relaxed m-4 text-gray-600">
-            jslkdfj;aslk
-            </p>
+          
           </div>
         </div>
         <!-- Flex Row Container -->
         <div class="flex flex-wrap">
           <!-- Item -->
-          <div class="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4">
+          <div class="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4" data-aos="fade-in">
             <div class="px-6">
               <!-- Image -->
               <img
@@ -404,7 +420,7 @@
             </div>
           </div>
           <!-- Item -->
-          <div class="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4">
+          <div class="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4" data-aos="fade-in" data-aos-delay="400">
             <div class="px-6">
               <!-- Image -->
               <img
@@ -435,7 +451,7 @@
             </div>
           </div>
           <!-- Item -->
-          <div class="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4">
+          <div class="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4" data-aos="fade-in" data-aos-delay="600">
             <div class="px-6">
               <!-- Image -->
               <img
@@ -465,7 +481,7 @@
             </div>
           </div>
           <!-- Item -->
-          <div class="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4">
+          <div class="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4" data-aos="fade-in" data-aos-delay="800">
             <div class="px-6">
               <!-- Image -->
               <img
@@ -534,7 +550,7 @@
         <!-- Flex Row Container -->
         <div class="flex flex-wrap mt-12 justify-center">
           <!-- Item -->
-          <div class="w-full lg:w-3/12 px-4 text-center">
+          <div class="w-full lg:w-3/12 px-4 text-center" data-aos="fade-in" data-aos-delay="600">
             <div class="text-gray-900 p-3 w-12 h-12 shadow-lg rounded-full bg-white inline-flex items-center justify-center">
               <!-- Icon -->
               <i class="fas fa-medal text-xl"></i>
@@ -549,7 +565,7 @@
             </p>
           </div>
           <!-- Item -->
-          <div class="w-full lg:w-3/12 px-4 text-center">
+          <div class="w-full lg:w-3/12 px-4 text-center" data-aos="fade-in" data-aos-delay="400">
             <div class="text-gray-900 p-3 w-12 h-12 shadow-lg rounded-full bg-white inline-flex items-center justify-center">
               <!-- Icon -->
               <i class="fas fa-poll text-xl"></i>
@@ -564,7 +580,7 @@
             </p>
           </div>
           <!-- Item -->
-          <div class="w-full lg:w-3/12 px-4 text-center">
+          <div class="w-full lg:w-3/12 px-4 text-center" data-aos="fade-in" data-aos-delay="200">
             <div class="text-gray-900 p-3 w-12 h-12 shadow-lg rounded-full bg-white inline-flex items-center justify-center">
               <!-- Icon -->
               <i class="fas fa-lightbulb text-xl"></i>
@@ -582,7 +598,7 @@
     <!-- Contact Form -->
     <section class="relative block py-24 lg:pt-0 bg-gray-900">
       <!-- Container -->
-      <div class="container mx-auto px-4">
+      <div class="container mx-auto px-4" data-aos="fade-in">
         <div class="flex flex-wrap justify-center lg:-mt-64 -mt-48">
           <div class="w-full lg:w-6/12 px-4">
             <div class="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded-lg bg-gray-300">
@@ -673,23 +689,21 @@
       <!-- Text Box Container -->
       <div class="flex flex-wrap">
         <div class="w-full lg:w-6/12 px-4">
-          <h4 class="text-3xl font-semibold">Let's keep in touch!</h4>
-          <h5 class="text-lg mt-0 mb-2 text-gray-700">
-            Find us on any of these platforms, we respond 1-2 business days.
-          </h5>
+          <h4 class="text-3xl font-semibold">Check out my Social Sites</h4>
+         
           <!-- Social Media Buttons -->
           <div class="mt-6">
-            <a href="https://www.twitter.com/creativetim" target="_blank"><i class="fab fa-twitter  bg-white text-blue-400 shadow-lg font-lg p-3 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 inline-block text-center"></i></a>
-            <a href="https://www.facebook.com/creativetim" target="_blank"><i class="fab fa-facebook-square bg-white text-blue-600 shadow-lg font-lg p-3 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 inline-block text-center"></i></a>
-            <a href="https://www.dribbble.com/creativetim" target="_blank"><i class="fab fa-dribbble bg-white text-pink-400 shadow-lg font-lg p-3 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 inline-block text-center"></i></a>
-            <a href="https://www.github.com/creativetimofficial" target="_blank"><i class="fab fa-github bg-white text-gray-900 shadow-lg font-lg p-3 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 inline-block text-center"></i></a>
+            <a href="" target="_blank"><i class="fab fa-twitter  bg-white text-blue-400 shadow-lg font-lg p-3 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 inline-block text-center"></i></a>
+            <a href="https://www.facebook.com/Nick-Tillinghast-Photography-156345067778579/?ref=bookmarks" target="_blank"><i class="fab fa-facebook-square bg-white text-blue-600 shadow-lg font-lg p-3 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 inline-block text-center"></i></a>
+            <a href="https://www.instagram.com/nicktillinghastphotography/?hl=en" target="_blank"><i class="fab fa-instagram bg-white text-purple-700 shadow-lg font-lg p-3 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 inline-block text-center"></i></a>
+            <a href="https://github.com/NickTillinghast" target="_blank"><i class="fab fa-github bg-white text-gray-900 shadow-lg font-lg p-3 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 inline-block text-center"></i></a>
           </div>
         </div>
       <!-- List Container -->
       <div class="w-full lg:w-6/12 px-4">
           <div class="flex flex-wrap items-top mb-6">
             <!-- List 1 -->
-            <div class="w-full lg:w-4/12 px-4 ml-auto">
+            <!-- <div class="w-full lg:w-4/12 px-4 ml-auto">
               <span class="block uppercase text-gray-600 text-sm font-semibold mb-2">Useful Links</span>
               <ul class="list-unstyled">
                 <li>
@@ -709,7 +723,7 @@
                      href="https://www.creative-tim.com/bootstrap-themes/free">Free Products</a>
                 </li>
               </ul>
-            </div>
+            </div> -->
             <!-- List 2 -->
             <!-- <div class="w-full lg:w-4/12 px-4">
               <span class="block uppercase text-gray-600 text-sm font-semibold mb-2">Other Resources</span>
@@ -754,11 +768,10 @@
   </footer>
   <!-- End of Footer Section -->
 </body>
+<!-- AOS .JS -->
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="script.js"></script>
 <!-- Navigation Script -->
-<script>
-  function toggleNavbar(collapseID) {
-    document.getElementById(collapseID).classList.toggle("hidden");
-    document.getElementById(collapseID).classList.toggle("block");
-  }
-</script>
+<script src="navbar.js"></script>
 </html>
